@@ -301,10 +301,10 @@ body {
   text-align: center;
 }
 
-.floating-social a:hover {
+/* .floating-social a:hover {
   background-color: var(--rose);
   color: #fff;
-}
+} */
 
 .floating-social i {
   font-size: 1.4rem;
