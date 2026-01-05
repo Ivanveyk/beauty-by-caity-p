@@ -226,3 +226,9 @@ body {
 #about {
   padding: 5rem 0;       /* same vertical spacing as services and gallery */
 }
+
+@media (max-width: 991.98px) {
+  #about .col-lg-6:last-child {
+    margin-top: 2rem;
+  }
+}
