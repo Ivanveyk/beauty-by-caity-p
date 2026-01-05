@@ -71,6 +71,17 @@ body {
   box-shadow: 0 20px 40px rgba(0,0,0,0.08);
 }
 
+.btn-appointment {
+  background-color: var(--rose);
+  color: #fff;
+  border-radius: 30px;
+  padding: 0.5rem 1.25rem;
+}
+
+.btn-appointment:hover {
+  background-color: var(--deep-rose);
+}
+
 /* Services Section */
 .services-section {
   padding: 5rem 0;
@@ -267,4 +278,34 @@ body {
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.floating-social {
+  position: fixed;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  z-index: 999;
+}
+
+.floating-social a {
+  color: var(--deep-rose);
+  background-color: var(--nude);
+  padding: 0.6rem;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-align: center;
+}
+
+.floating-social a:hover {
+  background-color: var(--rose);
+  color: #fff;
+}
+
+.floating-social i {
+  font-size: 1.4rem;
 }
