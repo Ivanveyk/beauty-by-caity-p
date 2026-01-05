@@ -249,18 +249,18 @@ body {
   transition: color 0.3s ease;
 }
 
-.fab:hover {
+/* .fab:hover {
   color: var(--rose);
-}
+} */
 
 .social-icons a {
   color: var(--deep-rose);
   transition: color 0.3s ease;
 }
 
-.social-icons a:hover {
+/* .social-icons a:hover {
   color: var(--rose);
-}
+} */
 
 .navbar-brand {
   font-size: 1.25rem;
