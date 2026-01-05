@@ -254,7 +254,7 @@ body {
 } */
 
 .social-icons a {
-  color: var(--deep-rose);
+  /* color: var(--deep-rose); */
   transition: color 0.3s ease;
 }
 
@@ -265,7 +265,7 @@ body {
 .navbar-brand {
   font-size: 1.25rem;
   font-weight: 600;
-  color: var(--text-dark);
+  /* color: var(--text-dark); */
 }
 
 .navbar {
@@ -292,7 +292,7 @@ body {
 }
 
 .floating-social a {
-  color: var(--deep-rose);
+  /* color: var(--deep-rose); */
   background-color: var(--nude);
   padding: 0.6rem;
   border-radius: 50%;
