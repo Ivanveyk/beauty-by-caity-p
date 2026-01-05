@@ -291,6 +291,13 @@ body {
   z-index: 999;
 }
 
+.floating-social a:focus,
+.floating-social a:active {
+  background-color: var(--nude);
+  color: var(--deep-rose);
+  outline: none;
+}
+
 .floating-social a {
   /* color: var(--deep-rose); */
   background-color: var(--nude);
@@ -301,10 +308,10 @@ body {
   text-align: center;
 }
 
-/* .floating-social a:hover {
+.floating-social a:hover {
   background-color: var(--rose);
   color: #fff;
-} */
+}
 
 .floating-social i {
   font-size: 1.4rem;
